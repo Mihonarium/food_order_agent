@@ -1,6 +1,6 @@
 # Food Delivery Agent
 
-Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this simple agent. It utilizes browser_use to order food. Optimized for Deliveroo, can be used elsewhere.
+Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this simple agent. It utilizes [browser_use](https://github.com/browser-use/browser-use/) to order food. Optimized for Deliveroo, can be used elsewhere.
 
 Use an LLM agent to order food from Deliveroo, Uber Eats, etc.
 
