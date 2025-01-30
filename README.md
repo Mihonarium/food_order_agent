@@ -4,6 +4,12 @@ Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this si
 
 Use an LLM agent to order food from Deliveroo, Uber Eats, etc.
 
+![image](https://github.com/user-attachments/assets/00b766b1-7060-4dd2-ad8b-dddf4e5a3234)
+![image](https://github.com/user-attachments/assets/70600280-d940-4454-a931-bfc2ede7dc3b)
+![image](https://github.com/user-attachments/assets/560310c1-a4b0-4a82-8e85-b251caea25df)
+
+
+
 ## Security
 
 Use at your own risk. Assume that an attacker would be able to access everything the agent can access, and maybe more. I'm not responsible for any damage this might cause.
@@ -16,7 +22,7 @@ Maybe use a Stripe Issuing card to manually approve all transactions on your Ube
 
 ## How to use
 
-I integrated this into my Home Assistant (which means that anyone smart with access to my Home Assistant server could in principle take over my Deliveroo account):
+I integrated this into my Home Assistant (which means that anyone smart with access to my Home Assistant server could, in principle, take over my Deliveroo account):
 
 `configuration.yaml`:
 ```rest_command:
@@ -125,4 +131,5 @@ I integrated this into my Home Assistant (which means that anyone smart with acc
     - data:
         title: Deliveroo Order Failed
         message: '{{ status_response.content.result }}'
-      action: persistent_notification.create```
+      action: persistent_notification.create
+```
