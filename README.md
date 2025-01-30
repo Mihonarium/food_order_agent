@@ -2,15 +2,13 @@
 
 Automate ordering food and other stuff.
 
-Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this simple agent. It utilizes [browser-use](https://github.com/browser-use/browser-use/) to order food. Optimized for Deliveroo, can be used elsewhere.
+Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this simple agent. It utilizes [browser-use](https://github.com/browser-use/browser-use/) to order food and other items. Optimized for Deliveroo, can be used elsewhere.
 
-Use an LLM agent to order food from Deliveroo, Uber Eats, etc.
+I created it to have a physical button I can use to order apples, inspired by the button POTUS uses to order Coke.
 
 ![image](https://github.com/user-attachments/assets/00b766b1-7060-4dd2-ad8b-dddf4e5a3234)
 ![image](https://github.com/user-attachments/assets/70600280-d940-4454-a931-bfc2ede7dc3b)
 ![image](https://github.com/user-attachments/assets/560310c1-a4b0-4a82-8e85-b251caea25df)
-
-
 
 ## Security
 
