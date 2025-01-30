@@ -6,7 +6,7 @@ Use an LLM agent to order food from Deliveroo, Uber Eats, etc.
 
 ## Security
 
-Use at your own risk. Assume that an attacker would be able to get access to anything the agent can access. I'm not responsible for any damage this might cause.
+Use at your own risk. Assume that an attacker would be able to access everything the agent can access, and maybe more. I'm not responsible for any damage this might cause.
 
 Also, do not use your real browser on your own computer. Set up a virtual machine or, at the very least, install Chrome Canary. Do not save your passwords and do not log into accounts you really don't want a rando on the internet to be able to access.
 
