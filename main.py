@@ -13,7 +13,6 @@ load_dotenv()
 import asyncio
 import uvicorn
 import uuid
-from typing import Optional
 
 chrome_path = 'C:\\Users\\User\\AppData\\Local\\Google\\Chrome SxS\\Application\\chrome.exe' # path to the isolated Chrome instance
 gemini_api_key = SecretStr('') # Google AI Studio API key
