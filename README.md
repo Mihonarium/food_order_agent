@@ -16,7 +16,7 @@ Maybe use a Stripe Issuing card to manually approve all transactions on your Ube
 
 ## How to use
 
-I integrated this into my Home Assistant:
+I integrated this into my Home Assistant (which means that anyone smart with access to my Home Assistant server could in principle take over my Deliveroo account):
 
 `configuration.yaml`:
 ```rest_command:
