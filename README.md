@@ -1,4 +1,4 @@
-# Food Delivery Agent
+# Food Ordering Agent
 
 Deliveroo, Uber Eats, etc. don't provide APIs for placing orders. Hence, this simple agent. It utilizes [browser-use](https://github.com/browser-use/browser-use/) to order food. Optimized for Deliveroo, can be used elsewhere.
 
